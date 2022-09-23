@@ -1,17 +1,12 @@
 ﻿
 Console.Clear();
 Console.WriteLine("a=");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("b=");
-int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("a=");
-int c = Convert.ToInt32(Console.ReadLine());
-int max = a;
-if (b >= max)
+int a = Convert.ToInt32(Console.ReadLine());;
+if (a % 2 == 0)
 {
-    Console.Write($"max = {b}");
+    Console.WriteLine("Чётное");
 }
 else
 {
-    Console.Write($"max = {a} min = {b}");
+    Console.WriteLine("Нечётное");
 }
