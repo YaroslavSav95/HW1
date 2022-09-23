@@ -4,10 +4,12 @@ Console.WriteLine("a=");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("b=");
 int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("a=");
+int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 if (b >= max)
 {
-    Console.Write($"max = {b} min = {a}");
+    Console.Write($"max = {b}");
 }
 else
 {
